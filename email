@@ -13,7 +13,7 @@ server = 'smtp.mail.ru'
 user = '-------------------  mail с которого отправляются сообщения --------------------------'
 password = '--------- пароль -----------'
 recipients = ['------------------- mail получателя (можно перечислить через зяпятую) ------------------ ']
-sender = f'{user}'
+sender = user
 
 filepath = 'requirements.txt'
 basename = os.path.basename(filepath)
